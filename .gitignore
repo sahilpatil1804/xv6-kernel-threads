@@ -1,0 +1,35 @@
+# Ignore tar.gz files
+*.tar.gz
+
+# Ignore object files
+*.o
+*.a
+
+# Ignore executables
+_*
+._*
+*.out
+*_test
+*.img
+bootblock
+entryother
+initcode
+kernel
+mkfs
+
+# Ignore build directories
+/build/
+obj/
+bin/
+
+# Ignore system files like swap files, etc.
+*~
+*.swp
+.DS_Store
+
+# Ignore other generated files
+*.d
+*.sym
+*.asm
+*.pl
+*.txt
